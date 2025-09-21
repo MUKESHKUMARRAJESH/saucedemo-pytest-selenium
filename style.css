@@ -1,0 +1,55 @@
+/* style.css */
+body {
+    background-color: #282c34;
+    color: #abb2bf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #61afef;
+    border-bottom: 2px solid #61afef;
+    padding-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.5);
+}
+
+th, td {
+    border: 1px solid #444851;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #3a3f4b;
+    color: #e6e6e6;
+    font-size: 1.1em;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #2c313a;
+}
+
+tbody tr:hover {
+    background-color: #3e4451;
+}
+
+/* Style test results */
+.passed {
+    color: #98c379; /* Green for passed */
+    font-weight: bold;
+}
+
+.failed {
+    color: #e06c75; /* Red for failed */
+    font-weight: bold;
+}
+
+.skipped {
+    color: #e5c07b; /* Yellow for skipped */
+    font-weight: bold;
+}
